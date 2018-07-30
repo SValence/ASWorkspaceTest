@@ -32,7 +32,7 @@ public class MeetingChatFragment extends Fragment {
 
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
-//
+//sss
         super.onViewCreated(view, savedInstanceState);
         msg_list = view.findViewById(R.id.meeting_msg_list);
         MeetingAdapter adapter = new MeetingAdapter();
