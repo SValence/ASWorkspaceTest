@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MarginLeftButtonStyle">
+        <item name="android:layout_width">0sp</item>
+        <item name="android:layout_height">40sp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginLeft">6sp</item>
+        <item name="android:layout_marginRight">3sp</item>
+    </style>
+
+    <style name="MarginRightButtonStyle">
+        <item name="android:layout_width">0sp</item>
+        <item name="android:layout_height">40sp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginLeft">3sp</item>
+        <item name="android:layout_marginRight">6sp</item>
+    </style>
+
+    <style name="PopupMenuStyle">
+        <item name="android:windowEnterAnimation">@anim/anim_pop_enter</item>
+        <item name="android:windowExitAnimation">@anim/anim_pop_exit</item>
+    </style>
+
+</resources>

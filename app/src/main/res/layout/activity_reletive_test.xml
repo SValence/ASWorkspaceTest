@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/meeting_chat_input_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:id="@+id/meeting_input_title_send"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_alignParentEnd="true"
+            android:contentDescription="@null"
+            android:paddingBottom="2dp"
+            android:paddingTop="2dp"
+            android:src="@drawable/selector_send" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/meeting_chat_title_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="2sp"
+            android:layout_toStartOf="@id/meeting_input_title_send"
+            android:background="@drawable/rounded_text"
+            android:gravity="center_vertical"
+            android:maxHeight="100sp"
+            android:minHeight="30dp"
+            android:textColor="?android:editTextColor"
+            android:textSize="17sp" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/list_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/meeting_chat_input_container" />
+
+</RelativeLayout>
