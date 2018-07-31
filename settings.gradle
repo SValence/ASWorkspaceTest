@@ -1,1 +1,1 @@
-include ':app', ':gpiolib'
+include ':app'

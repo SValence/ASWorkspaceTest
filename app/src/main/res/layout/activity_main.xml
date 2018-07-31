@@ -86,10 +86,10 @@
                 android:onClick="onRelativeClick"
                 android:text="@string/relative_test" />
 
-            <!--<Button-->
-                <!--style="@style/MarginRightButtonStyle"-->
-                <!--android:onClick="onShutDownClick"-->
-                <!--android:text="@string/language_setting" />-->
+            <Button
+                style="@style/MarginRightButtonStyle"
+                android:onClick="onCircleImageClick"
+                android:text="@string/circleimagetest" />
         </LinearLayout>
     </LinearLayout>
 </ScrollView>

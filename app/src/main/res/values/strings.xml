@@ -17,4 +17,5 @@
     <string name="add_bottom">加载BottomView</string>
     <string name="language_setting">语言设置</string>
     <string name="relative_test">RelativeLayout 测试</string>
+    <string name="circleimagetest">CircleImageTest</string>
 </resources>

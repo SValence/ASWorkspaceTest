@@ -74,12 +74,17 @@ public class MainActivity extends BaseActivity {
     }
 
     public void onShutDownClick(View view) {
-        Intent intent =  new Intent(Settings.ACTION_LOCALE_SETTINGS);
+        Intent intent = new Intent(Settings.ACTION_LOCALE_SETTINGS);
         startActivity(intent);
     }
 
-    public void onRelativeClick(View view){
-        Intent intent =  new Intent(MainActivity.this, ActivityRelativeTest.class);
+    public void onRelativeClick(View view) {
+        Intent intent = new Intent(MainActivity.this, ActivityRelativeTest.class);
+        startActivity(intent);
+    }
+
+    public void onCircleImageClick(View view) {
+        Intent intent = new Intent(MainActivity.this, ActivityCircleImage.class);
         startActivity(intent);
     }
 

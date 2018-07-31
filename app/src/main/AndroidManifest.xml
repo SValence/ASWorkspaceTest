@@ -37,7 +37,8 @@
             android:screenOrientation="portrait" />
         <activity android:name=".ActivityBattery" />
         <activity android:name=".ActivityAddBottom" />
-        <activity android:name=".ActivityRelativeTest"></activity>
+        <activity android:name=".ActivityRelativeTest" />
+        <activity android:name=".ActivityCircleImage"/>
     </application>
 
 </manifest>
