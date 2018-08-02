@@ -10,11 +10,11 @@
     </declare-styleable>
 
     <declare-styleable name="CircleTextImage">
-        <attr name="border_width" format="dimension" />
-        <attr name="border_color" format="color" />
-        <attr name="border_overlay" format="boolean" />
-        <attr name="img_text" format="string" />
-        <attr name="img_text_color" format="color" />
-        <attr name="img_text_size" format="dimension" />
+        <attr name="border_width_" format="dimension" />
+        <attr name="border_color_" format="color" />
+        <attr name="border_overlay_" format="boolean" />
+        <attr name="img_text_" format="string" />
+        <attr name="img_text_color_" format="color" />
+        <attr name="img_text_size_" format="dimension" />
     </declare-styleable>
 </resources>
